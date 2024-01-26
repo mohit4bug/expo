@@ -22,11 +22,11 @@ export declare function renderRouter(context: {
     overrides: Record<string, FileStub>;
 }, options?: RenderRouterOptions): Result;
 export declare const testRouter: {
-    /** Navigate to the provided pathname and assert it successfully navigated. */
+    /** Navigate to the provided pathname and the pathname */
     navigate(path: string): void;
-    /** Push the provided pathname and assert it successfully navigated. */
+    /** Push the provided pathname and assert the pathname */
     push(path: string): void;
-    /** Replace with provided pathname and assert it successfully replaced. */
+    /** Replace with provided pathname and assert the pathname */
     replace(path: string): void;
     /** Go back in history and asset the new pathname */
     back(path: string): void;
